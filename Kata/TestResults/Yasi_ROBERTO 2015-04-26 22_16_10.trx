@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="588d2210-c8b2-40ba-88a2-c4d2bc8346ab" name="Yasi@ROBERTO 2015-04-26 22:16:10" runUser="Roberto\Yasi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="02a0cb3c-6283-4650-85cb-2bd4791474de">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Yasi_ROBERTO 2015-04-26 22_16_10">
+      <DeploymentItem filename="C:\Users\Yasi\Desktop\Kata\Kata\bin\Debug\Kata.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-04-26T22:16:10.4147342-04:00" queuing="2015-04-26T22:16:10.4417358-04:00" start="2015-04-26T22:16:10.4837382-04:00" finish="2015-04-26T22:16:10.6757492-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="WhenPassedIIIReturns3" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="011686d5-b5a8-2b1c-c412-10b0bbda3ce2">
+      <Execution id="f3f8e716-86cd-4b26-a4a5-d3d11e38f7a1" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedIIIReturns3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="011686d5-b5a8-2b1c-c412-10b0bbda3ce2" executionId="f3f8e716-86cd-4b26-a4a5-d3d11e38f7a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f3f8e716-86cd-4b26-a4a5-d3d11e38f7a1" testId="011686d5-b5a8-2b1c-c412-10b0bbda3ce2" testName="WhenPassedIIIReturns3" computerName="ROBERTO" duration="00:00:00.0151784" startTime="2015-04-26T22:16:10.4897385-04:00" endTime="2015-04-26T22:16:10.6637485-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3f8e716-86cd-4b26-a4a5-d3d11e38f7a1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

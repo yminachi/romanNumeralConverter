@@ -1,0 +1,7 @@
+C:\Users\Yasi\Desktop\Kata\Test\bin\Debug\Test.dll
+C:\Users\Yasi\Desktop\Kata\Test\bin\Debug\Test.pdb
+C:\Users\Yasi\Desktop\Kata\Test\bin\Debug\Kata.exe
+C:\Users\Yasi\Desktop\Kata\Test\bin\Debug\Kata.pdb
+C:\Users\Yasi\Desktop\Kata\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Yasi\Desktop\Kata\Test\obj\Debug\Test.dll
+C:\Users\Yasi\Desktop\Kata\Test\obj\Debug\Test.pdb

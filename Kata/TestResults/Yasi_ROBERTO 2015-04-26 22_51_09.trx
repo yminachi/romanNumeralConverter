@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c0fc9a84-3da1-40b8-a2d7-1d4f198910d3" name="Yasi@ROBERTO 2015-04-26 22:51:09" runUser="Roberto\Yasi" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="02a0cb3c-6283-4650-85cb-2bd4791474de">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Yasi_ROBERTO 2015-04-26 22_51_09">
+      <DeploymentItem filename="C:\Users\Yasi\Desktop\Kata\Kata\bin\Debug\Kata.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-04-26T22:51:09.9248194-04:00" queuing="2015-04-26T22:51:13.3290141-04:00" start="2015-04-26T22:51:13.3790169-04:00" finish="2015-04-26T22:51:13.7280369-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="16" executed="16" passed="15" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="WhenPassedIXReturns9" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="05609b60-72dd-d96b-e66f-f2d0dfafe5be">
+      <Execution id="b6b7a9f8-a993-4d7e-a64b-abf215d0cd45" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedIXReturns9" />
+    </UnitTest>
+    <UnitTest name="WhenPassed9ReturnsIX" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="8640c846-6856-32ac-8488-39befd2989e3">
+      <Execution id="7996df24-84ba-4b45-9d7d-799e191ee9ee" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassed9ReturnsIX" />
+    </UnitTest>
+    <UnitTest name="WhenPassedZeroThrowsExpection" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="0947d309-4b18-4842-ceee-a16c92cd687f">
+      <Execution id="1c47484e-c92f-4df8-938f-7b999e45d302" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedZeroThrowsExpection" />
+    </UnitTest>
+    <UnitTest name="WhenPassedIReturns1" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="02e15bbb-90c5-dd89-5a33-f944f7bc7758">
+      <Execution id="c9dde895-1236-44de-8dcb-7a7a742e08f2" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedIReturns1" />
+    </UnitTest>
+    <UnitTest name="WhenPassedRomanNumeralWithTooManyRepeatingValuesThrowsExection" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="1f9c30dd-604b-511a-744b-fc676edddff3">
+      <Execution id="f4b0a848-59aa-4e79-a03e-a2587db0574d" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedRomanNumeralWithTooManyRepeatingValuesThrowsExection" />
+    </UnitTest>
+    <UnitTest name="WhenPassedInvalidCharactersThrowsExpection" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="40da96bf-8511-090f-4358-5e6a2fb850af">
+      <Execution id="fe777c20-ea2c-4292-b131-3cb125247fd8" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedInvalidCharactersThrowsExpection" />
+    </UnitTest>
+    <UnitTest name="WhenPassed3ReturnsIII" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="d831c014-5bc2-e7f6-f403-fddfe91eec11">
+      <Execution id="b6ce32d7-c76b-4419-9e45-419e13f4ce3a" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassed3ReturnsIII" />
+    </UnitTest>
+    <UnitTest name="WhenPassedRomanNumeralWronglyOrderedLettersThrowsExpection" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="071f8ee4-dc4b-d829-9b11-e35f88745432">
+      <Execution id="2ef87e3e-e275-4b0a-a915-f7b5e99c44f5" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedRomanNumeralWronglyOrderedLettersThrowsExpection" />
+    </UnitTest>
+    <UnitTest name="WhenPassed1ReturnsI" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="02d580d6-15be-9c3c-fccc-917eb22e85a1">
+      <Execution id="60932f36-0b6f-4e91-b3c2-d8387fd64753" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassed1ReturnsI" />
+    </UnitTest>
+    <UnitTest name="WhenPassedMCMLXXXIXReturns1989" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="f7646a7c-d2cb-0811-9dec-91463d27cae4">
+      <Execution id="ed5b6347-204e-44fe-aabc-868c8319f560" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedMCMLXXXIXReturns1989" />
+    </UnitTest>
+    <UnitTest name="WhenPassedRomanNumeralWithRepetingFivesThrowsExpection" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="3b5c73aa-2321-9876-c72d-8d128b3afa8a">
+      <Execution id="ff822aff-3ebd-44f3-bf25-14acfc988a83" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedRomanNumeralWithRepetingFivesThrowsExpection" />
+    </UnitTest>
+    <UnitTest name="WhenPassedMLXVIReturns1066" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="1252244a-3fe2-65c7-7ad2-9f13c19cb34f">
+      <Execution id="e8baba14-c46c-46e5-a679-dfafc00f403d" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedMLXVIReturns1066" />
+    </UnitTest>
+    <UnitTest name="WhenPassed1066ReturnsMLXVI" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="cde0597e-b99c-1877-0d2c-e186e7a58e26">
+      <Execution id="cab60bb9-3eb6-479a-a853-bf19ee691bd1" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassed1066ReturnsMLXVI" />
+    </UnitTest>
+    <UnitTest name="WhenPassedIIIReturns3" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="011686d5-b5a8-2b1c-c412-10b0bbda3ce2">
+      <Execution id="f9996941-37a3-4457-8069-7079b9297334" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedIIIReturns3" />
+    </UnitTest>
+    <UnitTest name="WhenPassedNegativeNumeralThrowsExpection" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="bf8c049f-0c32-6f9c-f5cb-f469f11b50c7">
+      <Execution id="bd301246-8c54-4847-be43-da0210088398" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassedNegativeNumeralThrowsExpection" />
+    </UnitTest>
+    <UnitTest name="WhenPassed1986ReturnsMCMLXXXIX" storage="c:\users\yasi\desktop\kata\test\bin\debug\test.dll" id="d969b015-e498-3309-0ee8-8123b1d34301">
+      <Execution id="b4e18072-f513-4259-9f99-7679d219e23e" />
+      <TestMethod codeBase="C:/Users/Yasi/Desktop/Kata/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.RomanArabicNumeralConverterTests, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WhenPassed1986ReturnsMCMLXXXIX" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="011686d5-b5a8-2b1c-c412-10b0bbda3ce2" executionId="f9996941-37a3-4457-8069-7079b9297334" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02d580d6-15be-9c3c-fccc-917eb22e85a1" executionId="60932f36-0b6f-4e91-b3c2-d8387fd64753" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02e15bbb-90c5-dd89-5a33-f944f7bc7758" executionId="c9dde895-1236-44de-8dcb-7a7a742e08f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05609b60-72dd-d96b-e66f-f2d0dfafe5be" executionId="b6b7a9f8-a993-4d7e-a64b-abf215d0cd45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="071f8ee4-dc4b-d829-9b11-e35f88745432" executionId="2ef87e3e-e275-4b0a-a915-f7b5e99c44f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0947d309-4b18-4842-ceee-a16c92cd687f" executionId="1c47484e-c92f-4df8-938f-7b999e45d302" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1252244a-3fe2-65c7-7ad2-9f13c19cb34f" executionId="e8baba14-c46c-46e5-a679-dfafc00f403d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f9c30dd-604b-511a-744b-fc676edddff3" executionId="f4b0a848-59aa-4e79-a03e-a2587db0574d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b5c73aa-2321-9876-c72d-8d128b3afa8a" executionId="ff822aff-3ebd-44f3-bf25-14acfc988a83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40da96bf-8511-090f-4358-5e6a2fb850af" executionId="fe777c20-ea2c-4292-b131-3cb125247fd8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8640c846-6856-32ac-8488-39befd2989e3" executionId="7996df24-84ba-4b45-9d7d-799e191ee9ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf8c049f-0c32-6f9c-f5cb-f469f11b50c7" executionId="bd301246-8c54-4847-be43-da0210088398" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cde0597e-b99c-1877-0d2c-e186e7a58e26" executionId="cab60bb9-3eb6-479a-a853-bf19ee691bd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d831c014-5bc2-e7f6-f403-fddfe91eec11" executionId="b6ce32d7-c76b-4419-9e45-419e13f4ce3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d969b015-e498-3309-0ee8-8123b1d34301" executionId="b4e18072-f513-4259-9f99-7679d219e23e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7646a7c-d2cb-0811-9dec-91463d27cae4" executionId="ed5b6347-204e-44fe-aabc-868c8319f560" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f9996941-37a3-4457-8069-7079b9297334" testId="011686d5-b5a8-2b1c-c412-10b0bbda3ce2" testName="WhenPassedIIIReturns3" computerName="ROBERTO" duration="00:00:00.0156366" startTime="2015-04-26T22:51:13.3920177-04:00" endTime="2015-04-26T22:51:13.5800284-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9996941-37a3-4457-8069-7079b9297334">
+    </UnitTestResult>
+    <UnitTestResult executionId="60932f36-0b6f-4e91-b3c2-d8387fd64753" testId="02d580d6-15be-9c3c-fccc-917eb22e85a1" testName="WhenPassed1ReturnsI" computerName="ROBERTO" duration="00:00:00.0009409" startTime="2015-04-26T22:51:13.5830286-04:00" endTime="2015-04-26T22:51:13.5900290-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60932f36-0b6f-4e91-b3c2-d8387fd64753">
+    </UnitTestResult>
+    <UnitTestResult executionId="c9dde895-1236-44de-8dcb-7a7a742e08f2" testId="02e15bbb-90c5-dd89-5a33-f944f7bc7758" testName="WhenPassedIReturns1" computerName="ROBERTO" duration="00:00:00.0002060" startTime="2015-04-26T22:51:13.5920291-04:00" endTime="2015-04-26T22:51:13.5970294-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9dde895-1236-44de-8dcb-7a7a742e08f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6b7a9f8-a993-4d7e-a64b-abf215d0cd45" testId="05609b60-72dd-d96b-e66f-f2d0dfafe5be" testName="WhenPassedIXReturns9" computerName="ROBERTO" duration="00:00:00.0002192" startTime="2015-04-26T22:51:13.5980295-04:00" endTime="2015-04-26T22:51:13.6030297-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6b7a9f8-a993-4d7e-a64b-abf215d0cd45">
+    </UnitTestResult>
+    <UnitTestResult executionId="2ef87e3e-e275-4b0a-a915-f7b5e99c44f5" testId="071f8ee4-dc4b-d829-9b11-e35f88745432" testName="WhenPassedRomanNumeralWronglyOrderedLettersThrowsExpection" computerName="ROBERTO" duration="00:00:00.0032529" startTime="2015-04-26T22:51:13.6050299-04:00" endTime="2015-04-26T22:51:13.6130303-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ef87e3e-e275-4b0a-a915-f7b5e99c44f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="1c47484e-c92f-4df8-938f-7b999e45d302" testId="0947d309-4b18-4842-ceee-a16c92cd687f" testName="WhenPassedZeroThrowsExpection" computerName="ROBERTO" duration="00:00:00.0007750" startTime="2015-04-26T22:51:13.6140304-04:00" endTime="2015-04-26T22:51:13.6200307-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c47484e-c92f-4df8-938f-7b999e45d302">
+    </UnitTestResult>
+    <UnitTestResult executionId="e8baba14-c46c-46e5-a679-dfafc00f403d" testId="1252244a-3fe2-65c7-7ad2-9f13c19cb34f" testName="WhenPassedMLXVIReturns1066" computerName="ROBERTO" duration="00:00:00.0001880" startTime="2015-04-26T22:51:13.6210308-04:00" endTime="2015-04-26T22:51:13.6250310-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8baba14-c46c-46e5-a679-dfafc00f403d">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4b0a848-59aa-4e79-a03e-a2587db0574d" testId="1f9c30dd-604b-511a-744b-fc676edddff3" testName="WhenPassedRomanNumeralWithTooManyRepeatingValuesThrowsExection" computerName="ROBERTO" duration="00:00:00.0007032" startTime="2015-04-26T22:51:13.6260311-04:00" endTime="2015-04-26T22:51:13.6310313-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4b0a848-59aa-4e79-a03e-a2587db0574d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff822aff-3ebd-44f3-bf25-14acfc988a83" testId="3b5c73aa-2321-9876-c72d-8d128b3afa8a" testName="WhenPassedRomanNumeralWithRepetingFivesThrowsExpection" computerName="ROBERTO" duration="00:00:00.0072641" startTime="2015-04-26T22:51:13.6320314-04:00" endTime="2015-04-26T22:51:13.6430320-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff822aff-3ebd-44f3-bf25-14acfc988a83">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Test.RomanArabicNumeralConverterTests.WhenPassedRomanNumeralWithRepetingFivesThrowsExpection did not throw expected exception Kata.RomanNumeralNotValidExeption.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe777c20-ea2c-4292-b131-3cb125247fd8" testId="40da96bf-8511-090f-4358-5e6a2fb850af" testName="WhenPassedInvalidCharactersThrowsExpection" computerName="ROBERTO" duration="00:00:00.0007327" startTime="2015-04-26T22:51:13.6450321-04:00" endTime="2015-04-26T22:51:13.6490324-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe777c20-ea2c-4292-b131-3cb125247fd8">
+    </UnitTestResult>
+    <UnitTestResult executionId="7996df24-84ba-4b45-9d7d-799e191ee9ee" testId="8640c846-6856-32ac-8488-39befd2989e3" testName="WhenPassed9ReturnsIX" computerName="ROBERTO" duration="00:00:00.0002467" startTime="2015-04-26T22:51:13.6500324-04:00" endTime="2015-04-26T22:51:13.6550327-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7996df24-84ba-4b45-9d7d-799e191ee9ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd301246-8c54-4847-be43-da0210088398" testId="bf8c049f-0c32-6f9c-f5cb-f469f11b50c7" testName="WhenPassedNegativeNumeralThrowsExpection" computerName="ROBERTO" duration="00:00:00.0006970" startTime="2015-04-26T22:51:13.6570328-04:00" endTime="2015-04-26T22:51:13.6610331-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd301246-8c54-4847-be43-da0210088398">
+    </UnitTestResult>
+    <UnitTestResult executionId="cab60bb9-3eb6-479a-a853-bf19ee691bd1" testId="cde0597e-b99c-1877-0d2c-e186e7a58e26" testName="WhenPassed1066ReturnsMLXVI" computerName="ROBERTO" duration="00:00:00.0001908" startTime="2015-04-26T22:51:13.6620331-04:00" endTime="2015-04-26T22:51:13.6660333-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cab60bb9-3eb6-479a-a853-bf19ee691bd1">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6ce32d7-c76b-4419-9e45-419e13f4ce3a" testId="d831c014-5bc2-e7f6-f403-fddfe91eec11" testName="WhenPassed3ReturnsIII" computerName="ROBERTO" duration="00:00:00.0001835" startTime="2015-04-26T22:51:13.6670334-04:00" endTime="2015-04-26T22:51:13.6710336-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6ce32d7-c76b-4419-9e45-419e13f4ce3a">
+    </UnitTestResult>
+    <UnitTestResult executionId="b4e18072-f513-4259-9f99-7679d219e23e" testId="d969b015-e498-3309-0ee8-8123b1d34301" testName="WhenPassed1986ReturnsMCMLXXXIX" computerName="ROBERTO" duration="00:00:00.0001859" startTime="2015-04-26T22:51:13.6720337-04:00" endTime="2015-04-26T22:51:13.6760339-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4e18072-f513-4259-9f99-7679d219e23e">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed5b6347-204e-44fe-aabc-868c8319f560" testId="f7646a7c-d2cb-0811-9dec-91463d27cae4" testName="WhenPassedMCMLXXXIXReturns1989" computerName="ROBERTO" duration="00:00:00.0001740" startTime="2015-04-26T22:51:13.6770340-04:00" endTime="2015-04-26T22:51:13.6820343-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed5b6347-204e-44fe-aabc-868c8319f560">
+    </UnitTestResult>
+  </Results>
+</TestRun>
